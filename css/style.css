@@ -1,0 +1,113 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+   
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: url(https://klike.net/uploads/posts/2022-12/1671685130_3-47.jpg);
+    padding: 100px 0;
+}
+
+h3 {
+    font-size: 20px ;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    border:10px solid black;
+    margin: 0 auto;
+    background:white;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+    
+}
+.title-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://career86.ru/wp-content/uploads/2022/12/1647490646_0.png) no-repeat center center /cover;
+    color: white;
+    margin-right: 10px;
+    
+}
+.title-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+    
+}
+.title {
+    position:relative;
+    z-index: 1;
+}
+ 
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(../images/Me.png) no-repeat center center /cover;
+    }
+
+    .nav ul {
+        display: flex;
+        background: rgb(230,230,230);
+        margin:10px 0;
+    }
+
+   
+
+    .nav li a {
+        display:flex;
+        padding: 20px;
+        text-decoration: none;
+        color: #404040;
+        font-weight: bold;
+        border-right: 1px solid #d1d1d1 ;
+        transition:background 3s ease ;
+    }
+
+    .nav li a:hover {
+        background:rgb(196,196,196);
+        transition:background 1s ease ;
+    }
+.content-wrapper {
+    display:flex;
+
+}
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+
+}
+
+.skills li {
+    padding: 10px;
+    transition:transform .5s ease;
+    cursor:pointer
+}
+
+.skills li:hover {
+    transform:translateX(10px);
+}
